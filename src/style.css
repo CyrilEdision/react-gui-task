@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;600;900&display=swap");
+body {
+  font-family: "Catamaran", sans-serif;
+}
+.heading h2 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.row {
+  margin: 0;
+}
+.heading {
+  background: rgb(248, 248, 248);
+  padding: 8px 0 5px;
+  box-shadow: 0px 0px 5px rgb(194, 194, 194);
+}
+.uicomponent-head {
+  border-right: 1px solid #000;
+  padding: 15px;
+}
+.uicomponent {
+  padding: 10px;
+}
+.uicomponent ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.uicomponent ul li {
+  display: block;
+  border: 1px solid #000;
+  margin-bottom: 10px;
+}
+.uicomponent ul li .icon {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  background: #000;
+  padding: 10px;
+  color: #fff;
+}
+.uicomponent ul li .contentHeading {
+  width: 80%;
+  display: inline-block;
+  text-align: center;
+}
+.fields-head {
+  padding: 20px;
+}
+.fields {
+  border: 2px dashed rgb(143, 143, 143);
+  height: 100vh;
+  border-radius: 5px;
+  padding: 10px;
+}
